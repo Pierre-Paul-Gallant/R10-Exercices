@@ -1,5 +1,4 @@
 import requests as rq
-import converter
 
 BASE_URL = 'https://fakestoreapi.com'
 

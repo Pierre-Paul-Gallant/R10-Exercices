@@ -1,6 +1,5 @@
-import utils.converter as conv
-import utils.fakestore_rq as fk_rq
-
+from utils_fakestore import converter as conv
+from utils_fakestore import fakestore_rq as fk_rq
 # Vous avez deux modules faits pour travailler avec votre API fakestore.
 #   Le module converter permet de convertir des valeurs monétaires d'un prix canadien à un prix américain.
 #   Le module fakestore_rq contient une fonction "mettre_produit_a_jour" qui permet de changer les valeurs d'un produit dans la base de données de fakestore.

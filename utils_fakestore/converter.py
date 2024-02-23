@@ -7,7 +7,7 @@ base_url = "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/curren
 
 def _get_rate_cad_to_X (currency):
     res = rq.get(f"{base_url}/{currency}.json")
-    rate = rate.json()[currency]
+    rate = res.json()[currency]
     return rate
 
 def convert_cad_to_X(amount, currency):
